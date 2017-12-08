@@ -1,35 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
 	<script type='text/javascript'>
-	var isCtrl = false;
-	document.onkeyup=function(e)
-	{
-	   if(e.which == 17)
-	   isCtrl=false;
-	}
-	document.onkeydown=function(e)
-	{
-	   if(e.which == 17)
-	   isCtrl=true;
-	   if((e.which == 85) || (e.which == 67) && (isCtrl == true))
+	   var isCtrl = false;
+	   document.onkeyup=function(e)
 	   {
-	       return false;
+	      if(e.which == 17)
+	      isCtrl=false;
 	   }
-	}
-	var isNS = (navigator.appName == "Netscape") ? 1 : 0;
-	if(navigator.appName == "Netscape") document.captureEvents(Event.MOUSEDOWN||Event.MOUSEUP);
-	function mischandler(){
-	   return false;
-	}
-	function mousehandler(e){
-	   var myevent = (isNS) ? e : event;
-	   var eventbutton = (isNS) ? myevent.which : myevent.button;
-	   if((eventbutton==2)||(eventbutton==3)) return false;
-	}
-	document.oncontextmenu = mischandler;
-	document.onmousedown = mousehandler;
-	document.onmouseup = mousehandler;
+	   document.onkeydown=function(e)
+	   {
+	      if(e.which == 17)
+	      isCtrl=true;
+	      if((e.which == 85) || (e.which == 67) && (isCtrl == true))
+	      {
+	          return false;
+	      }
+	   }
+	   var isNS = (navigator.appName == "Netscape") ? 1 : 0;
+	   if(navigator.appName == "Netscape") document.captureEvents(Event.MOUSEDOWN||Event.MOUSEUP);
+	   function mischandler(){
+	      return false;
+	   }
+	   function mousehandler(e){
+	      var myevent = (isNS) ? e : event;
+	      var eventbutton = (isNS) ? myevent.which : myevent.button;
+	      if((eventbutton==2)||(eventbutton==3)) return false;
+	   }
+	   document.oncontextmenu = mischandler;
+	   document.onmousedown = mousehandler;
+	   document.onmouseup = mousehandler;
 	</script>
 	<meta content="text/html; charset=utf-8" http-equiv="content-type">
 	<meta charset="utf-8">
@@ -315,32 +316,13 @@
 				<div class="close">
 					<span>Close<img alt="close" src="wp-content/themes/ri-theme/assets/img/close.png" width="11"></span>
 				</div>
-				<h3><span>You'll find the answers through our trades</span></h3>
+				<h3><span>We can’t flaunt it unless you know how we trade it</span></h3>
 				<p>Complete the form and we'll be in touch</p>
 				<div class="wpcf7" dir="ltr" id="wpcf7-f116-o1" lang="en-GB" role="form">
 					<div class="screen-reader-response"></div>
-					<form action="https://formspree.io/sandeep.panja@yahoo.com" class="wpcf7-form" method="post" novalidate="novalidate" id="contactform">
-					<div style="display: none;">
-					<input name="_wpcf7" type="hidden" value="116">
-					<input name="_wpcf7_version" type="hidden" value="4.9">
-					<input name="_wpcf7_locale" type="hidden" value="en_GB">
-					<input name="_wpcf7_unit_tag" type="hidden" value="wpcf7-f116-o1">
-					<input name="_wpcf7_container_post" type="hidden" value="0">
-				</div>
-			<div class="wpcf7-response-output wpcf7-display-none"></div>
-		<p>
-        <label for="name">Your Name</label>
-		<span class="wpcf7-form-control-wrap your-name">
-		<input aria-invalid="false" aria-required="true" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" id="name" name="name" size="40" type="text" value=""></span>
-		
-        <label for="email">Your Email</label>
-		<span class="wpcf7-form-control-wrap your-email"><input aria-invalid="false" aria-required="true" class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email" id="email" name="email" size="40" type="email" value=""></span>
-		
-        <label for="telephone">Your Telephone</label><span class="wpcf7-form-control-wrap your-telephone"><input aria-invalid="false" aria-required="true" class="wpcf7-form-control wpcf7-text wpcf7-tel wpcf7-validates-as-required wpcf7-validates-as-tel" id="telephone" name="telephone" size="40" type="text" value=""></span>
-		
-        <button class="btn btn-block" type="submit"><span></span>Send</button>
-		</p>
-	</form>
+					<form action="https://formspree.io/talk@quadmatics.com" class="wpcf7-form" id="contactform" method="post" name="contactform" novalidate="novalidate">
+						<p><label for="name">Your Name</label> <span class="wpcf7-form-control-wrap your-name"><input aria-invalid="false" aria-required="true" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" id="name" name="name" size="40" type="text" value=""></span> <label for="email">Your Email</label> <span class="wpcf7-form-control-wrap your-email"><input aria-invalid="false" aria-required="true" class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email" id="email" name="email" size="40" type="email" value=""></span> <label for="telephone">Your Telephone</label><span class="wpcf7-form-control-wrap your-telephone"><input aria-invalid="false" aria-required="true" class="wpcf7-form-control wpcf7-text wpcf7-tel wpcf7-validates-as-required wpcf7-validates-as-tel" id="telephone" name="telephone" size="40" type="text" value=""></span> <button class="btn btn-block" type="submit"><span></span>Send</button></p>
+					</form>
 				</div>
 			</div>
 		</section>
@@ -352,7 +334,7 @@
 				<div class="footer-info">
 					<p>Copyright &copy; 
 					<script type="text/javascript">
-					                              document.write(new Date().getFullYear());
+					                                             document.write(new Date().getFullYear());
 					</script> Quadmatics Financial Services LLC. All rights reserved.</p>
 				</div>
 				<div class="footer-nav">
