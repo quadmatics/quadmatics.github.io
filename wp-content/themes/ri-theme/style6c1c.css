@@ -864,11 +864,12 @@ html.mm-blocking #mm-blocker { z-index: 1; }
     width: 250px;
     color: #fff;
     text-align: center;
-    bottom: -105px;
+    bottom: -525%;
     position: absolute;
     z-index: 1;
 }
 
 .tooltip:hover .tooltipimage {
     visibility: visible;
+    position: absolute; left: -9.9em; z-index: 99;
 }
