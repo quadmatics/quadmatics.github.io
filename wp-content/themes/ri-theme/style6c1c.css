@@ -628,7 +628,7 @@ section.main-content.main-content-left { padding-right: 20px;}
 /* FORM STYLES */
 label { font-size: 14px; line-height: 20px; text-transform: uppercase; color: #ffffff; margin-bottom: 7px; display: inline-block; display: block; }
 input { border: 0; width: 100%; height: 46px; font-size: 14px; line-height: 20px; padding: 0 10px; box-sizing: border-box; }
-textarea { border: 0; width: 100%; height: 250px; font-size: 14px; line-height: 20px; padding: 8px 10px; box-sizing: border-box; }
+textarea { border: 0; width: 100%; height: 200px; font-size: 14px; line-height: 20px; padding: 8px 10px; box-sizing: border-box; }
 button { border: none; margin-left: -10px; margin-top: 30px; }
 
 /* CF7 */
