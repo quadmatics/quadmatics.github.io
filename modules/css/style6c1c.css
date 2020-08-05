@@ -332,7 +332,7 @@ button.btn.btn-block span:after { background: #575756; }
 @media only screen and (max-width: 480px) {
     #main-banner { padding: 60px 0 35px; }
     #main-banner h1 { font-size: 40px; line-height: 40px; }
-    #main-banner h1 .line-1 { font-size: 18px; line-height: 24px; }
+    #main-banner h1 .line-1 { font-size: 14px; line-height: 24px; }
     #main-banner h1 .line-3, #main-banner h1 .line-5 { font-size: 18px; line-height: 24px; top: 0px; }
     #main-banner .main-title { margin-bottom: 30px; }
     #main-banner.alt-news .banner-content { margin-top: 35px; }
