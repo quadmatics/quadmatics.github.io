@@ -343,7 +343,7 @@ button.btn.btn-block span:after { background: #575756; }
 }
 
 /* MAIN CONTENT */
-.main-content { padding: 85px 0 80px; }
+.main-content { padding: 120px 0 80px; }
 .main-content .info-left .button { max-width: 280px; }
 .main-content.how-it-works { z-index: 50; }
 .main-content.how-it-works.bg-overflow { z-index: 20; }
