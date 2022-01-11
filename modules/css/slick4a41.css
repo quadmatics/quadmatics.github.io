@@ -115,3 +115,18 @@
 .slick-arrow.slick-hidden {
     display: none;
 }
+.thankyou-page ._footer {
+    text-align: center;
+    padding: 50px 30px;
+}
+.thankyou-page ._footer .btn {
+    background: #4ab74a;
+    color: white;
+    border: 0;
+    font-size: 14px;
+    font-weight: 400;
+    border-radius: 0;
+    letter-spacing: 0.8px;
+    padding: 20px 33px;
+    text-transform: uppercase;
+}

@@ -840,19 +840,26 @@ html.mm-blocking #mm-blocker { z-index: 1; }
 .tooltip {
     position: relative;
     display: inline-block;
-    border-bottom: 2px solid #5CFF00;
+	cursor: pointer;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+    /*border-bottom: 2px solid #5CFF00;*/
 }
 
 .tooltip .tooltiptext {
     visibility: hidden;
-    width: 120px;
-    background-color: black;
+    width: 130px;
+    background-color: #1f1f1f;
     color: #fff;
     text-align: center;
     border-radius: 6px;
     padding: 5px 0;
     position: absolute;
     z-index: 1;
+	top: -5px;
+	left: 105%;
 }
 
 .tooltip:hover .tooltiptext {
