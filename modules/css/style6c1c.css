@@ -120,7 +120,7 @@ section { position: relative; }
 .vinny-line, .vinnycolor, .vinnyflow { -webkit-transform-style: preserve-3d; -moz-transform-style: preserve-3d; -ms-transform-style: preserve-3d; transform-style: preserve-3d; }
 .wrapper { max-width: 1260px; box-sizing: border-box; padding: 0 20px; position: relative; margin: 0 auto; z-index: 50; width: 100%; }
 .wrapper.slim { max-width: 940px; }
-body, input { font-family: 'Graphik', helvetica, sans-serif; font-size: 14px; line-height: 20px; color: #3c3c3b; letter-spacing: 0.002em; }
+body, input, textarea { font-family: 'Graphik', helvetica, sans-serif; font-size: 14px; line-height: 20px; color: #3c3c3b; letter-spacing: 0.002em; }
 body { overflow: hidden; max-width: 100vw; }
 p { margin-bottom: 28px; }
 
