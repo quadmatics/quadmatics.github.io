@@ -1,4 +1,0 @@
-Options +FollowSymLinks
-RewriteEngine on
-RewriteCond %{HTTP_HOST} ^bareorigin\.com$
-RewriteRule ^(.*)$ https://www.bareorigin.com/$1 [L,R=301]
