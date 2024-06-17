@@ -1,0 +1,9 @@
+.cms-content a:after {
+  height: 2px;
+  left: 0;
+  right: 0;
+  bottom: -1px;
+  position: absolute;
+  content: "";
+  background: #5cff00;
+}
