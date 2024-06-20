@@ -39,7 +39,7 @@
     <link href='../modules/css/slick4a41.css' id='slick-css' media='all' rel='stylesheet' type='text/css'>
     <link href='../modules/css/style6c1c.css' id='style-css' media='all' rel='stylesheet' type='text/css'>
     <link href='../modules/css/style9b8r.css' id='style-css' media='all' rel='stylesheet' type='text/css'>
-	<link href='../modules/css/style7q6b.css' id='style-css' media='all' rel='stylesheet' type='text/css'>
+    <link href='../modules/css/style7q6b.css' id='style-css' media='all' rel='stylesheet' type='text/css'>
     <link href='../modules/css/style33a6.css' id='contact-form-7-css' media='all' rel='stylesheet' type='text/css'>
     <link href='../' rel='shortlink'>
     <link href="../modules/image/apple-touch-icon.png" rel="apple-touch-icon" sizes="180x180">
@@ -157,7 +157,7 @@
                   <h3><span>Sandeep Panja</span></h3>
                   <h4>Managing Director</h4>
                   <p>Back in 2007, Sandeep started off his career with SAP SE at Infosys before joining TATA Technologies in 2012. In chair since 2020, he currently oversees the technology stack behind Quadmatics. He's the one who makes sure it always delivers, including managing expansions and improvements in our predictive intelligence platform. Sandeep is closely involved with the day to day affairs of the company and works with the code base on a daily basis. His focus is on making sure that customers get the most value they can from Quadmatics.</p>
-				  <p>Sandeep has a strong research background so he's ideally placed for tackling any technical challenges that can present themselves. Specialised in trade strategy execution, he is the founder of the company.</p>
+                  <p>Sandeep has a strong research background so he's ideally placed for tackling any technical challenges that can present themselves. Specialised in trade strategy execution, he is the founder of the company.</p>
                 </article>
               </div>
             </div>
@@ -176,15 +176,15 @@
           <p>Complete the form to request a personalized demo</p>
           <div class="wpcf7" dir="ltr" id="wpcf7-f116-o1" lang="en-GB" role="form">
             <div class="screen-reader-response"></div>
-            <form action="https://formsubmit.co/sales@quadmatics.com" class="wpcf7-form" id="contactform" method="post" name="contactform" novalidate="novalidate">
+            <form action="https://formsubmit.co/sales@quadmatics.com" class="wpcf7-form" id="contactform" method="post" name="contactform" novalidate="novalidate" onsubmit="disableButton()">
               <div class="wpcf7-response-output wpcf7-display-none"></div>
               <p>
                 <label for="name">Your Name</label> <span class="wpcf7-form-control-wrap your-name"><input aria-invalid="false" aria-required="true" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" id="name" name="name" size="40" type="text" value="" required></span>
                 <label for="email">Your Email</label> <span class="wpcf7-form-control-wrap your-email"><input aria-invalid="false" aria-required="true" class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email" id="email" name="email" size="40" type="email" value="" required></span>
                 <label for="telephone">Your Telephone</label><span class="wpcf7-form-control-wrap your-telephone"><input aria-invalid="false" aria-required="true" class="wpcf7-form-control wpcf7-text wpcf7-tel wpcf7-validates-as-required wpcf7-validates-as-tel" id="telephone" name="telephone" size="40" type="text" value="" required></span>
-				<input type="hidden" name="_captcha" value="false">
+                <input type="hidden" name="_captcha" value="false">
                 <input type="hidden" name="_next" value="https://www.quadmatics.com/success/thankyou">
-                <button class="btn btn-block" type="submit"><span></span>Send</button>
+                <button class="btn btn-block" type="submit" id="submit-button"><span></span>Send</button>
               </p>
             </form>
           </div>
@@ -256,6 +256,13 @@
           return false;
         }
       };
+    </script>
+    <script>
+      function disableButton() {
+        const submitButton = document.getElementById('submit-button');
+        submitButton.disabled = true;
+        submitButton.innerHTML = 'Sending...';
+      }
     </script>
     <script src='../modules/js/jquery.js' type='text/javascript'></script>
     <script src='../modules/js/migrate.js' type='text/javascript'></script>
