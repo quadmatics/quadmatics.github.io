@@ -1,4 +1,4 @@
-body {
+.thank-you-page {
     margin: 0;
     font-family: 'Roboto Mono', monospace;
     background: #121212;
@@ -9,12 +9,12 @@ body {
     color: #e0e0e0;
 }
 
-.thank-you-container {
+.thank-you-page .thank-you-container {
     text-align: center;
     padding: 20px;
 }
 
-.thank-you-card {
+.thank-you-page .thank-you-card {
     background: #1e1e1e;
     border-radius: 15px;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
@@ -24,17 +24,17 @@ body {
     animation: fadeInUp 1s ease-out;
 }
 
-.checkmark {
+.thank-you-page .checkmark {
     width: 100px;
     margin: auto;
 }
 
-.checkmark svg {
+.thank-you-page .checkmark svg {
     width: 100%;
     animation: stroke 0.5s cubic-bezier(0.65, 0, 0.45, 1) forwards, scale 0.3s ease-in-out 0.9s both;
 }
 
-.checkmark-circle {
+.thank-you-page .checkmark-circle {
     stroke: #5CFF00;
     stroke-width: 5;
     stroke-dasharray: 166;
@@ -44,9 +44,9 @@ body {
     animation: dash 0.6s cubic-bezier(0.65, 0, 0.45, 1) forwards;
 }
 
-.checkmark-check {
+.thank-you-page .checkmark-check {
     transform-origin: 50% 50%;
-    stroke: #76ff03;
+    stroke: #5CFF00;
     stroke-width: 5;
     stroke-dasharray: 48;
     stroke-dashoffset: 48;
@@ -76,14 +76,14 @@ body {
     }
 }
 
-h1 {
+.thank-you-page h1 {
     color: #5CFF00;
     font-size: 28px;
     margin-top: 20px;
     font-weight: 700;
 }
 
-p {
+.thank-you-page p {
     color: #b0bec5;
     font-size: 18px;
     margin-top: 10px;
@@ -91,7 +91,7 @@ p {
     font-weight: 300;
 }
 
-.back-home {
+.thank-you-page .back-home {
     display: inline-block;
     margin-top: 20px;
     padding: 10px 25px;
@@ -101,18 +101,19 @@ p {
     text-decoration: none;
     transition: background 0.3s, transform 0.3s;
     font-weight: 500;
+    position: relative;
 }
 
-.back-home:hover {
+.thank-you-page .back-home:hover {
     background: #64dd17;
     transform: translateY(-2px);
 }
 
-.arrow-left {
+.thank-you-page .arrow-left {
     display: inline-block;
     margin-right: 10px;
     border: solid #242422;
-    border-width: 0 2px 2px 0;
+    border-width: 0 3px 3px 0;
     padding: 5px;
     transform: rotate(135deg);
     -webkit-transform: rotate(135deg);
