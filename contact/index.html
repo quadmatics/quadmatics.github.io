@@ -120,7 +120,7 @@
             <article class="cms-content">
               <div class="wpcf7" dir="ltr" id="wpcf7-f255-o1" lang="en-GB" role="form">
                 <div class="screen-reader-response" aria-live="polite"></div>
-                <form action="https://formsubmit.co/sales@quadmatics.com" class="wpcf7-form" id="contactusform" method="post" name="contactusform" novalidate="novalidate" onsubmit="disableButton()">
+                <form action="https://api.staticforms.xyz/submit" class="wpcf7-form" id="contactusform" method="post" name="contactusform" novalidate="novalidate" onsubmit="disableButton()">
                   <p>
                     <label class="form-cols">Your Name
                     <br> <span class="wpcf7-form-control-wrap your-name-first"><input aria-invalid="false" aria-required="true" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" id="name" name="name" placeholder="" size="40" type="text" value=""/></span></label>
@@ -145,8 +145,9 @@
                     <label>What Takes You Here
                     <br> <span class="wpcf7-form-control-wrap your-message"><textarea aria-invalid="false" class="wpcf7-form-control wpcf7-textarea" cols="40" name="message" rows="10"></textarea></span></label>
                   </p>
-				  <input type="hidden" name="_captcha" value="false">
-                  <input type="hidden" name="_next" value="https://www.quadmatics.com/success/thankyou">
+				  <input type="hidden" name="accessKey" value="830fe14d-0a6f-48b3-9252-796ec934dcd1">
+				  <input type="hidden" name="subject" value="Sales Enquiry" />
+				  <input type="hidden" name="redirectTo" value="https://www.quadmatics.com/success/thankyou">
                   <p>
                     <button class="btn btn-block" id="submit-button"><span></span>Send</button>
                   </p>
@@ -168,14 +169,15 @@
           <p>Complete the form to request a personalized demo</p>
           <div class="wpcf7" dir="ltr" id="wpcf7-f116-o1" lang="en-GB" role="form">
             <div class="screen-reader-response"></div>
-            <form action="https://formsubmit.co/sales@quadmatics.com" class="wpcf7-form" id="contactform" method="post" name="contactform" novalidate="novalidate" onsubmit="disableButton()">
+            <form action="https://api.staticforms.xyz/submit" class="wpcf7-form" id="contactform" method="post" name="contactform" novalidate="novalidate" onsubmit="disableButton()">
               <div class="wpcf7-response-output wpcf7-display-none"></div>
               <p>
                 <label for="name">Your Name</label> <span class="wpcf7-form-control-wrap your-name"><input aria-invalid="false" aria-required="true" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" id="name" name="name" size="40" type="text" value="" required></span>
                 <label for="email">Your Email</label> <span class="wpcf7-form-control-wrap your-email"><input aria-invalid="false" aria-required="true" class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email" id="email" name="email" size="40" type="email" value="" required></span>
                 <label for="telephone">Your Telephone</label><span class="wpcf7-form-control-wrap your-telephone"><input aria-invalid="false" aria-required="true" class="wpcf7-form-control wpcf7-text wpcf7-tel wpcf7-validates-as-required wpcf7-validates-as-tel" id="telephone" name="telephone" size="40" type="text" value="" required></span>
-                <input type="hidden" name="_captcha" value="false">
-                <input type="hidden" name="_next" value="https://www.quadmatics.com/success/thankyou">
+                <input type="hidden" name="accessKey" value="830fe14d-0a6f-48b3-9252-796ec934dcd1">
+				<input type="hidden" name="subject" value="Sales Enquiry" />
+				<input type="hidden" name="redirectTo" value="https://www.quadmatics.com/success/thankyou">
                 <button class="btn btn-block" type="submit" id="submit-button"><span></span>Send</button>
               </p>
             </form>
