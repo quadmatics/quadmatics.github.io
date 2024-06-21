@@ -1,120 +1,107 @@
 .thank-you-page {
-    margin: 0;
-    font-family: 'Roboto Mono', monospace;
-    background: #121212;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    color: #e0e0e0;
+     margin: 0;
+     font-family: 'Roboto Mono', monospace;
+     background: #121212;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 100vh;
+     color: #e0e0e0;
 }
-
-.thank-you-page .thank-you-container {
-    text-align: center;
-    padding: 20px;
+ .thank-you-page .thank-you-container {
+     text-align: center;
+     padding: 20px;
 }
-
-.thank-you-page .thank-you-card {
-    background: #1e1e1e;
-    border-radius: 15px;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
-    padding: 40px 30px;
-    max-width: 400px;
-    margin: auto;
-    animation: fadeInUp 1s ease-out;
+ .thank-you-page .thank-you-card {
+     background: #1e1e1e;
+     border-radius: 15px;
+     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+     padding: 40px 30px;
+     max-width: 400px;
+     margin: auto;
+     animation: fadeInUp 1s ease-out;
 }
-
-.thank-you-page .checkmark {
-    width: 100px;
-    margin: auto;
+ .thank-you-page .checkmark {
+     width: 100px;
+     margin: auto;
 }
-
-.thank-you-page .checkmark svg {
-    width: 100%;
-    animation: stroke 0.5s cubic-bezier(0.65, 0, 0.45, 1) forwards, scale 0.3s ease-in-out 0.9s both;
+ .thank-you-page .checkmark svg {
+     width: 100%;
+     animation: stroke 0.5s cubic-bezier(0.65, 0, 0.45, 1) forwards, scale 0.3s ease-in-out 0.9s both;
 }
-
-.thank-you-page .checkmark-circle {
-    stroke: #5CFF00;
-    stroke-width: 5;
-    stroke-dasharray: 166;
-    stroke-dashoffset: 166;
-    stroke-miterlimit: 10;
-    fill: none;
-    animation: dash 0.6s cubic-bezier(0.65, 0, 0.45, 1) forwards;
+ .thank-you-page .checkmark-circle {
+     stroke: #5CFF00;
+     stroke-width: 5;
+     stroke-dasharray: 166;
+     stroke-dashoffset: 166;
+     stroke-miterlimit: 10;
+     fill: none;
+     animation: dash 0.6s cubic-bezier(0.65, 0, 0.45, 1) forwards;
 }
-
-.thank-you-page .checkmark-check {
-    transform-origin: 50% 50%;
-    stroke: #5CFF00;
-    stroke-width: 5;
-    stroke-dasharray: 48;
-    stroke-dashoffset: 48;
-    animation: dash-check 0.3s cubic-bezier(0.65, 0, 0.45, 1) 0.6s forwards;
+ .thank-you-page .checkmark-check {
+     transform-origin: 50% 50%;
+     stroke: #5CFF00;
+     stroke-width: 5;
+     stroke-dasharray: 48;
+     stroke-dashoffset: 48;
+     animation: dash-check 0.3s cubic-bezier(0.65, 0, 0.45, 1) 0.6s forwards;
 }
-
-@keyframes dash {
-    100% {
-        stroke-dashoffset: 0;
+ @keyframes dash {
+     100% {
+         stroke-dashoffset: 0;
     }
 }
-
-@keyframes dash-check {
-    100% {
-        stroke-dashoffset: 0;
+ @keyframes dash-check {
+     100% {
+         stroke-dashoffset: 0;
     }
 }
-
-@keyframes fadeInUp {
-    from {
-        opacity: 0;
-        transform: translate3d(0, 100%, 0);
+ @keyframes fadeInUp {
+     from {
+         opacity: 0;
+         transform: translate3d(0, 100%, 0);
     }
-    to {
-        opacity: 1;
-        transform: none;
+     to {
+         opacity: 1;
+         transform: none;
     }
 }
-
-.thank-you-page h1 {
-    color: #5CFF00;
-    font-size: 28px;
-    margin-top: 20px;
-    font-weight: 700;
+ .thank-you-page h1 {
+     color: #5CFF00;
+     font-size: 28px;
+     margin-top: 20px;
+     font-weight: 700;
 }
-
-.thank-you-page p {
-    color: #b0bec5;
-    font-size: 18px;
-    margin-top: 10px;
-    margin-bottom: 20px;
-    font-weight: 300;
+ .thank-you-page p {
+     color: #b0bec5;
+     font-size: 18px;
+     margin-top: 10px;
+     margin-bottom: 20px;
+     font-weight: 300;
 }
-
-.thank-you-page .back-home {
-    display: inline-block;
-    margin-top: 20px;
-    padding: 10px 25px;
-    background: #5CFF00;
-    color: #121212;
-    border-radius: 25px;
-    text-decoration: none;
-    transition: background 0.3s, transform 0.3s;
-    font-weight: 500;
-    position: relative;
+ .thank-you-page .back-home {
+     display: inline-block;
+     margin-top: 20px;
+     padding: 10px 25px;
+     background: #5CFF00;
+     color: #121212;
+     border-radius: 25px;
+     text-decoration: none;
+     transition: background 0.3s, transform 0.3s;
+     font-weight: 500;
+     position: relative;
 }
-
-.thank-you-page .back-home:hover {
-    background: #64dd17;
-    transform: translateY(-2px);
+ .thank-you-page .back-home:hover {
+     background: #64dd17;
+     transform: translateY(-2px);
 }
-
-.thank-you-page .arrow-left {
-    display: inline-block;
-    margin-right: 10px;
-    border: solid #242422;
-    border-width: 0 3px 3px 0;
-    padding: 5px;
-    transform: rotate(135deg);
-    -webkit-transform: rotate(135deg);
+ .thank-you-page .arrow-left {
+     display: inline-block;
+     margin-right: 10px;
+     border: solid #242422;
+     border-width: 0 3px 3px 0;
+     padding: 5px;
+     transform: rotate(135deg);
+     -webkit-transform: rotate(135deg);
 }
+ 
