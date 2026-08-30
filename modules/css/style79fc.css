@@ -392,7 +392,7 @@
      font-size: 14px;
      line-height: 20px;
      color: #3c3c3b;
-     letter-spacing: 0.002em;
+     /*letter-spacing: 0.002em;*/
 }
  body {
      overflow: hidden;
